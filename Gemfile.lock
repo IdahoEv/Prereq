@@ -8,9 +8,13 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (3.1.2)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
     caliph (0.3.1)
     codeclimate-test-reporter (0.4.7)
       simplecov (>= 0.7.1, < 1.0.0)
+    columnize (0.8.9)
     corundum (0.4.1)
       bundler
       caliph (~> 0.3)
@@ -19,6 +23,7 @@ GEM
       rspec (>= 2.0)
       simplecov (>= 0.5.4)
       simplecov-json (>= 0.2)
+    debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
     json (1.8.2)
@@ -60,6 +65,8 @@ PLATFORMS
 
 DEPENDENCIES
   Prereq!
+  byebug
+  caliph
   codeclimate-test-reporter
   corundum
   rake

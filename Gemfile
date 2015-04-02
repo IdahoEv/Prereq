@@ -5,8 +5,10 @@ group :development, :test do
   gem 'rspec'
   gem 'simplecov'
   gem "codeclimate-test-reporter", group: :test, require: nil
+  gem "byebug"
 end
 
 gem 'rake'
+gem 'caliph'
 
 gemspec :name => "prereq"
