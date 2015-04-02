@@ -1,0 +1,12 @@
+Left to do:
+  * Yaml file format requirements
+  *    (test file existence, test format if that succeeds)
+  * Requirement Sets
+  * DSL for creating Requirement Sets easily 
+  * Output messages
+  * Verbose output messages with instructions for correcting failed deficiencies
+  * Output formatting, color
+  * Skippable / dependent requirements. (e.g. don't check if redis is running if it's not installed)
+  * Rake task for running a dependency set
+  * Exit rake without stack trace
+  * Env vars or rake flags to trigger different levels of verbosity
