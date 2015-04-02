@@ -17,9 +17,9 @@ class Prereq::Requirement
 
     private
     def execute
-      cmd = cmd(@command)
+      command = cmd(@command)
       shell = Caliph::Shell.new
-      if shell.run(cmd).succeeded?
+      if shell.run(command).succeeded?
         :succeeded
       else
         :failed
